@@ -31,7 +31,8 @@ jobs:
       - name: setup hugo
         uses: peaceiris/actions-hugo@v2
         with: 
-            hugo-version: "extended"
+            hugo-version: "latest"
+            extended: true
 
       - name: build web
         run: hugo

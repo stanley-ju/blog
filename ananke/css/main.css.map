@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/runner/work/blog/blog",
+	"sourceRoot": "/home/runner/work/jjcblog.github.io/jjcblog.github.io",
 	"sources": [
 		"ananke/css/main.css"
 	],

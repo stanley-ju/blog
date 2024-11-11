@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>https://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>jjc blog</title>
+    <link>https://stanley-ju.github.io/blog/</link>
+    <description>Recent content on jjc blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Nov 2024 14:33:46 +0800</lastBuildDate>
+    <atom:link href="https://stanley-ju.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testblog</title>
+      <link>https://stanley-ju.github.io/blog/posts/testblog/</link>
+      <pubDate>Mon, 11 Nov 2024 14:33:46 +0800</pubDate>
+      <guid>https://stanley-ju.github.io/blog/posts/testblog/</guid>
+      <description>&lt;h2 id=&#34;testblog&#34;&gt;testblog&lt;/h2&gt;&#xA;&lt;p&gt;ttttttttttttttttt&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -1,4 +1,4 @@
-name: File Tree Workflow、
+name: File Tree Workflow
 
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
@@ -12,9 +12,20 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+      NODE_VERSION: 20.10.0
     steps:
     - uses: actions/checkout@v2
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm install
+      
     - name: Run File Tree Action
       uses: stanley-ju/script_demo@main
       with:

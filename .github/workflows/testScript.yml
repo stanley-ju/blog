@@ -1,0 +1,14 @@
+name: File Tree Workflow
+
+on: [push]
+    workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run File Tree Action
+      uses: your-username/file-tree-action@main
+      with:
+        path: 'path/to/your/files'

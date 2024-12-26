@@ -21,3 +21,5 @@ jobs:
       uses: stanley-ju/script_demo@main
       with:
         path: './'
+    - name: Print file tree
+      uses: stanley-ju/scriptDemo2@v1
